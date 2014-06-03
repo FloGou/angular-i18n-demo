@@ -1,0 +1,15 @@
+{
+    "label.hello.world": "Salut le monde!",
+    "label.users.connected": {
+        "one": "Vous n'avez actuellement qu'un utilisateur connecté (et {} seul)",
+        "zero": "Personne n'est connecté",
+        "default": "Vous avez {} utilisateurs connectés"
+    },
+    "message.story.beginning": "C'est l'histoire de {firstCharacter} qui appelle son ami {secondCharacter} pour lui demander s'il peut emmener {thirdCharacter} à l'aéroport. Le problème, c'est que le téléphone de {secondCharacter} est sur messagerie, et que {firstCharacter} n'a pa de voiture.",
+    "message.story.end": "Finalement {1} a du dire à {3} qu'il devrait y aller par ses propres moyens, et s'excusa de la part de {2}",
+    "message.feedback": {
+        "true": "Content que vous ayiez aimé l'histoire",
+        "false": "Dommage que vous n'ayiez pas aimé l'histoire!"
+    },
+    "message.with.html": "J' <b>AIME</b> le \"pierre & roule\" donc <i>(insérer la suite ici...)</i>"
+}
