@@ -9,7 +9,7 @@
     <hr>
     <select ng-model="language" ng-options="lang for lang in ['default', 'fr']">
     </select>
-    <button class="btn btn-primary " i18n-language-selector='language'>Do you speak english ?</button>
+    <button class="btn btn-primary " i18n-language-selector='language'>Change Language</button>
     <hr>
 </div>
 
@@ -32,7 +32,14 @@
             <strong>None</strong><br>
             {{'label.users.connected' | i18n:0}}
         </li>
+        <li>
+            <strong>Undefined</strong><br>
+            {{'label.users.connected' |i18n:undefined}}
+        </li>
     </ul>
+
+
+
 
     <h4>Named parameter call</h4>
     {{'message.story.beginning' | i18n:{'firstCharacter':'John', 'secondCharacter':'Paul', 'thirdCharacter':'Matthew'} }}
@@ -48,6 +55,10 @@
         <li>
             <strong>False</strong><br>
             {{'message.feedback' | i18n:false }}
+        </li>
+        <li>
+            <strong>Undefined</strong><br>
+            {{'message.feedback' | i18n:undefined }}
         </li>
     </ul>
 
